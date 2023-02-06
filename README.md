@@ -30,7 +30,7 @@
 - Display an error message when user tries to divide by 0
 
 **Extra:**
-    - Add a "." button to input decimals
-    - Make it look nice
-    - Add a "backspace" button
-    - Add keyboard support
+- Add a "." button to input decimals
+- Make it look nice
+- Add a "backspace" button
+- Add keyboard support
