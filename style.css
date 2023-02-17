@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(241, 224, 202);
+}
+
+.container {
+    /* width: 80vw; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    /* border: 5px solid red; */
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    border-radius: 50%;
+    border-style: none;
+}
+
+#buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  
+    gap: 0.5em;
+}
+
+#display{
+    margin-bottom: 1em;
+}
+
+.special-modifier {
+    background-color: rgb(180, 176, 173);
+}
+
+.modifier {
+    background-color: rgb(253, 148, 68);
+}
+
