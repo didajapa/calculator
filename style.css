@@ -25,12 +25,13 @@ button {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-  
     gap: 0.5em;
 }
 
 #display{
     margin-bottom: 1em;
+    background-color: white;
+    padding: 1em 1.5em;
 }
 
 .special-modifier {
