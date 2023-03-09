@@ -1,3 +1,20 @@
+const numberButton = document.querySelectorAll(".number");
+const modifierButton = document.querySelectorAll(".modifier");
+const specialModifierButton = document.querySelectorAll(".special-modifier");
+
+numberButton.forEach((button) =>
+    button.addEventListener("click", () => test(button.textContent))
+    );
+
+modifierButton.forEach((button) =>
+button.addEventListener("click", () => test(button.textContent))
+);
+
+
+function test(number){
+    console.log(number);
+}
+
 
 function add(a, b){
     return a += b;
