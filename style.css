@@ -63,18 +63,18 @@ button {
 
 #display{
     border: 5px solid rgb(93, 95, 93);
-    width: 38vw;
+    width: 36.3vw;
     height: 2em; 
     /* margin-bottom: 1em; */
     background-color: white;
-    /* padding: 1em 1.5em; */
+    padding-right: 0.5em;
     text-align: end;
     font-size: 2em;
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
     align-items: end;
     border-radius: 10px 10px 0 0 ;
-        
+    justify-content: right;
 }
 
 .special-modifier {
